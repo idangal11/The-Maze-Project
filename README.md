@@ -20,11 +20,11 @@ The compression and will benefit from the information.
 ## Main Packages
 #### MazeGenerators:
 * Maze class- start and goal position, two-dimensional matrix of integers.
-* MyMazeGnerator- generates a maze by "Recursive division method".
-* SimpleMazeGenerator- generate a maze by putting randomly walls. 
+* MyMazeGnerator class- generates a maze by "Recursive division method".
+* SimpleMazeGenerator class- generate a maze by putting randomly walls. 
 #### Search:
 * Classes of Search Algorithms- Breadth-first search, Depth-first search and Best-first search.
-* SearchableMaze- the adapter class. with help of this class we can search in given game (like maze).
+* SearchableMaze class- the adapter class. with help of this class we can search in given game (like maze).
 * Solution class- track the path and return a solution.
 #### IO
 * MyCompressorOutputStream class- unique way to compress maze data.
